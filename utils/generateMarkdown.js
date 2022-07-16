@@ -1,15 +1,18 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  (`${answers.license}` === "") ? console.log("There will be no lisence for this project")
+  let licenseChoice = `${answers.license}`;
+  let licenseBadge = ``
+
+
+    (licenseChoice === "") ? console.log("There will be no lisence for this project") :
     
-    (`${answers.license}` === "Apache") ? "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)" :
+    (licenseChoice === "Apache") ? licenseBadge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)` :
     
-      (`${answers.license}` === "MIT") ? "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" :
+      (licenseChoice === "MIT") ? licenseBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)` :
         
-        (`${answers.license}` === "IBM") ? "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)" :
+        (licenseChoice === "IBM") ? licenseBadge = `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)` :
           
-          (`${answers.license}` === "Perl") ? "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)" :
+          (licenseChoice === "Perl") ? licenseBadge = `[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)` : ;
 }
 
 // Below is how you would return the badge link
@@ -31,6 +34,9 @@ function generateMarkdown(answers) {
   return `# ${answers.title}
   Made by ${answers.username}
   ${answers.license}
+  ## Tableof Contents 
+  - [](#)
+  
   ## About 
   ${answers.about}
 
