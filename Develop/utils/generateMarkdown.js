@@ -34,8 +34,8 @@ function generateMarkdown(answers) {
 
   ## Guidelines for Contribution 
   ${answers.contribute}
-
-  ## Testing 
+  
+  ## Testing
   ${answers.test}  
   `;
 }
