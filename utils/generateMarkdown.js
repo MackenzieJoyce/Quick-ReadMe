@@ -25,7 +25,7 @@ function generateMarkdown(answers) {
   //Same pattern
   return `# ${answers.title}
   Made by ${answers.username}
-  This repo has the ${license} license.
+  This repo has the ${answers.license} license.
   ## About 
   ${answers.about}
 

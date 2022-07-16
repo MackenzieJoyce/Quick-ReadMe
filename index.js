@@ -48,10 +48,10 @@ function init() {
       },
     ])
     // TODO: Create a function to write README file
-    .then((answers) =>
+    .then((answers) => {
       fs.writeFile("ReadMe.md", generateMarkdown(answers), (err) =>
         err ? console.error(err) : console.log("Making your ReadMe.md now...")
-      )
-    );
+      );
+    });
 }
 init(); // Function call to initialize app
