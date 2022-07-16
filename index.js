@@ -44,7 +44,7 @@ function init() {
         type: "list",
         name: "license",
         message: "Which opensource license are you going to use?",
-        choices: ["MIT", "Perl", "Apache"],
+        choices: ["MIT", "Perl", "Apache", "IBM"],
       },
     ])
     // TODO: Create a function to write README file
