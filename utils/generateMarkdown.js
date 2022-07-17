@@ -24,13 +24,13 @@ function generateMarkdown(answers) {
   ${answers.description}
 
   ## Tableof Contents
-  - [!Installation](##answers.installation)
-  - [!Use](##answers.use)
-  - [!Guidlines for Contribution](##answers.contribute)
-  - [!Testing](##answers.test)
-  - [!Credits](##answers.credit)
-  - [!License](##answers.license)
-  - [!Questions](##answers.questions)
+  - [Installation](##answers.installation)
+  - [Use](##answers.use)
+  - [Guidlines for Contribution](##answers.contribute)
+  - [Testing](##answers.test)
+  - [Credits](##answers.credit)
+  - [License](##answers.license)
+  - [Questions](##answers.questions)
 
   ## Installation
   ${answers.installation}
