@@ -8,13 +8,13 @@ In this repo are the files for creating a ReadMe.md through the terminal. The us
 
 ## Tableof Contents
 
-- [Installation](##answers.installation)
-- [Use](##answers.use)
-- [Guidlines for Contribution](##answers.contribute)
-- [Testing](##answers.test)
-- [Credits](##answers.credit)
-- [License](##answers.license)
-- [Questions](##answers.questions)
+- [Installation](#answers.installation)
+- [Use](#answers.use)
+- [Guidlines for Contribution](#answers.contribute)
+- [Testing](#answers.test)
+- [Credits](#answers.credit)
+- [License](#answers.license)
+- [Questions](#answers.questions)
 
 ## Installation
 
