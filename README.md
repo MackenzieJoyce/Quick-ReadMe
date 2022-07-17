@@ -35,7 +35,7 @@ Create a fork, edit/create files, and make a Pull Request.
 
 ## Testing
 
-![demo of use](/assets/demo/demo-of-use.gif)
+![demo of use](assets/demo/demo-of-use.webm)
 </br></br>
 
 ## Credits
