@@ -27,24 +27,29 @@ function init() {
       },
       {
         type: "input",
-        name: "use",
-        message: "How will someone use this?",
+        name: "run",
+        message: "How will someone install and run this project?",
       },
       {
         type: "input",
         name: "contribute",
-        message: "What are the guidelines for using this repo?",
+        message: "What are the guidelines for contributing to this repository?",
       },
       {
         type: "input",
         name: "test",
-        message: "What are the test instructions?",
+        message: "Would you like to provide tests?",
+      },
+      {
+        type: "input",
+        name: "credit",
+        message: "Would you like to credit anyone?",
       },
       {
         type: "list",
         name: "license",
-        message: "Which opensource license are you going to use?",
-        choices: ["MIT", "Perl", "Apache", "IBM"],
+        message: "Will you be licensing the repository?",
+        choices: ["MIT", "Apache", "IBM", "Creative Commons", "Perl"],
       },
     ])
     // TODO: Create a function to write README file
