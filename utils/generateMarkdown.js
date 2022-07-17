@@ -21,14 +21,14 @@ function generateMarkdown(answers) {
   ## Description 
   ${answers.description}
 
-  ## Tableof Contents
+  ## Table of Contents
   - [Installation](#installation)
   - [Use](#use)
   - [Guidlines for Contribution](#guidelines-for-contribution)
   - [Testing](#testing)
   - [Credits](#credits)
   - [License](#license)
-  - [Questions](#questions)
+  - [Questions](#questions) 
 
   ## Installation
   ${answers.installation}
