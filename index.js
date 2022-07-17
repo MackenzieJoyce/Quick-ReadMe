@@ -11,45 +11,72 @@ function init() {
   inquirer
     .prompt([
       {
+        // TITLE //
         type: "input",
         name: "title",
         message: "What is the title of your project?",
       },
       {
+        // DESCRIPTION //
         type: "input",
-        name: "github",
-        message: "What is your Github username?",
-      },
-      {
-        type: "input",
-        name: "about",
+        name: "description",
         message: "What is your project about?",
       },
       {
+        // INSTALLATION //
         type: "input",
-        name: "run",
+        name: "installation",
         message: "How will someone install and run this project?",
       },
       {
+        // USE //
+        type: "input",
+        name: "use",
+        message: "How do you expect someone to use this project?",
+      },
+      {
+        // CONTRIBUTION //
         type: "input",
         name: "contribute",
         message: "What are the guidelines for contributing to this repository?",
       },
       {
+        // TESTING //
         type: "input",
         name: "test",
         message: "Would you like to provide tests?",
       },
       {
+        // CREDIT //
         type: "input",
         name: "credit",
         message: "Would you like to credit anyone?",
       },
       {
+        // LICENSE //
         type: "list",
         name: "license",
         message: "Will you be licensing the repository?",
-        choices: ["MIT", "Apache", "IBM", "Creative Commons", "Perl"],
+        choices: [
+          "MIT",
+          "Apache",
+          "IBM",
+          "Creative Commons",
+          "Perl",
+          "Unlicense",
+        ],
+      },
+      {
+        // USERNAME //
+        type: "input",
+        name: "username",
+        message: "Enter your GitHub Username: ",
+      },
+      {
+        // EMAIL //
+        type: "input",
+        name: "email",
+        message: "Enter your email for contact: ",
       },
     ])
     // TODO: Create a function to write README file
