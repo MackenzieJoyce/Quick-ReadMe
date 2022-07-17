@@ -20,6 +20,7 @@ function generateMarkdown(answers) {
   
   ## Description 
   ${answers.description}
+  </br></br>
 
   ## Table of Contents
   - [Installation](#installation)
@@ -29,22 +30,28 @@ function generateMarkdown(answers) {
   - [Credits](#credits)
   - [License](#license)
   - [Questions](#questions) 
+  </br></br>
 
   ## Installation
   ${answers.installation}
-  
+  </br></br>
+
   ## Use 
   ${answers.use}
+  </br></br>
 
   ## Guidelines for Contribution
   ${answers.contribute}
-  
+  </br></br>
+
   ## Testing
   ${answers.test}
+  </br></br>
 
   ## Credits 
   ${answers.credit}
-  
+  </br></br>
+
   ## License 
   ${
     answers.license === "MIT"
@@ -59,11 +66,12 @@ function generateMarkdown(answers) {
       ? `Perl`
       : `The Unlicense`
   }
-
+  </br></br>
+  
   ## Questions
   <p>View my other GitHub projects on my profile: <a href="https://github.com/${
     answers.username
-  }">${answers.username}</a></p> </br>
+  }">${answers.username}</a></p> 
   <p>For additional questions, you can contact me at <a href="mailto:${
     answers.email
   }">${answers.email}</a></p>
