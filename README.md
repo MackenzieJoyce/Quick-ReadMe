@@ -35,7 +35,7 @@ Create a fork, edit/create files, and make a Pull Request.
 
 ## Testing
 
-<iframe src="https://drive.google.com/file/d/1ROnjq899jg_bOzBIoQyb-DmpqfUWyKsx/preview" width="640" height="480"></iframe>
+![demo of use](/assets/demo/demo-of-use.gif)
 </br></br>
 
 ## Credits
