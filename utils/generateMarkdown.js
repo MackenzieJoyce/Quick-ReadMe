@@ -1,8 +1,7 @@
 // TODO: Return a license badge based on which license is passed in
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  //Same pattern
+  // let username = `"https://github.com/${answers.username}"`;
   return `
   # ${answers.title}
 
@@ -63,12 +62,14 @@ function generateMarkdown(answers) {
   }
 
   ## Questions
-  [!You can see my other work at ]${answers.username}
-  [!For additional questions, you can contact me at ]${answers.email}
+  <p>You can see my other projects at <a href="https://github.com/${
+    answers.username
+  }">${answers.username}</a></p> </br>
+  <p>For additional questions, you can contact me at <a href="${
+    answers.email
+  }">${answers.email}</a></p>
 
   `;
 }
 
 module.exports = generateMarkdown;
-
-// Create variable with url added for answers.username
