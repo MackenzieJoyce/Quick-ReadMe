@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 // fs, inquirer, path, generateMarkdown.js - require
 const fs = require("fs"); // No need for install, part of node core
-const path = require("path"); // No need for install, part of node core
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -81,7 +80,7 @@ function init() {
     ])
     // TODO: Create a function to write README file
     .then((answers) => {
-      fs.writeFile("ReadMe.md", generateMarkdown(answers), (err) =>
+      fs.writeFile("./utils/ReadMe.md", generateMarkdown(answers), (err) =>
         err ? console.error(err) : console.log("Making your ReadMe.md now...")
       );
     });
