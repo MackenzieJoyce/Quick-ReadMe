@@ -1,5 +1,4 @@
 // TODO: Include packages needed for this application
-// fs, inquirer, path, generateMarkdown.js - require
 const fs = require("fs"); // No need for install, part of node core
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
