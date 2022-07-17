@@ -65,7 +65,7 @@ function generateMarkdown(answers) {
   <p>You can see my other projects at <a href="https://github.com/${
     answers.username
   }">${answers.username}</a></p> </br>
-  <p>For additional questions, you can contact me at <a href="${
+  <p>For additional questions, you can contact me at <a href="mailto:${
     answers.email
   }">${answers.email}</a></p>
 
