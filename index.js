@@ -89,8 +89,12 @@ function init() {
     ])
     // TODO: Create a function to write README file
     .then((answers) => {
-      fs.writeFile("./utils/ReadMe.md", generateMarkdown(answers), (err) =>
-        err ? console.error(err) : console.log("Making your ReadMe.md now...")
+      fs.writeFile(
+        "./utils/ReadMe.md",
+        generateMarkdown(answers),
+        (
+          err // Write a path so the .md goes into utils folder
+        ) => (err ? console.error(err) : console.log("ReadMe.md generated!"))
       );
     });
 }

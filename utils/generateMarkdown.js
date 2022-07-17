@@ -1,7 +1,6 @@
 // TODO: Return a license badge based on which license is passed in
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  // let username = `"https://github.com/${answers.username}"`;
   return `
   # ${answers.title}
 
@@ -62,7 +61,7 @@ function generateMarkdown(answers) {
   }
 
   ## Questions
-  <p>You can see my other projects at <a href="https://github.com/${
+  <p>View my other GitHub projects on my profile: <a href="https://github.com/${
     answers.username
   }">${answers.username}</a></p> </br>
   <p>For additional questions, you can contact me at <a href="mailto:${
