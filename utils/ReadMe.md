@@ -1,48 +1,46 @@
+# E-commerce Back End
 
-  # ReadMe.md Generator
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-  [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-  
-  ## Description 
-  Create personalized and professional ReadMe.md!
+## Description
+
+This project deals with the back end of an e-commerce website. I built the models and routes used to manipulate data and bring up endpoints.
+</br></br>
+
+## Table of Contents
+
+- [Use](#use)
+- [Guidlines for Contribution](#guidelines-for-contribution)
+- [Testing](#testing)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
   </br></br>
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Use](#use)
-  - [Guidlines for Contribution](#guidelines-for-contribution)
-  - [Testing](#testing)
-  - [Credits](#credits)
-  - [License](#license)
-  - [Questions](#questions) 
-  </br></br>
+## Use
 
-  ## Installation
-  Clone the repository, open on your machine in a code editor, install package.json with inquirer, use the terminal to answer prompts.
-  </br></br>
+First use npm i to install all modules needed to use the code. Use the mysql shell to create a database. Input npm run seed and then npm start to give data to the tables and connect to the server. In Insomnia, begin to use the end points listed in the routes files to see and manipulate different data.
+</br></br>
 
-  ## Use 
-  The user will follow the prompts to create a ReadMe.md for their repositories.
-  </br></br>
+## Guidelines for Contribution
 
-  ## Guidelines for Contribution
-  Fork the repo, make additions and edits, make a Pull Request. 
-  </br></br>
+Clone, make changes, then create a pull request.
+</br></br>
 
-  ## Testing
-  N/A 
-  </br></br>
+## Testing
 
-  ## Credits 
-  N/A 
-  </br></br>
+</br></br>
 
-  ## License 
-  Creative Commons
-  </br></br>
-  
-  ## Questions
-  <p>View my other GitHub projects on my profile: <a href="https://github.com/MackenzieJoyce">MackenzieJoyce</a></p> 
-  <p>For additional questions, you can contact me at <a href="mailto:MackenzieJoyce414@gmail.com">MackenzieJoyce414@gmail.com</a></p>
+## Credits
 
-  
+</br></br>
+
+## License
+
+Creative Commons
+</br></br>
+
+## Questions
+
+  <p>View my other GitHub projects on my profile: <a href="https://github.com/"></a></p> 
+  <p>For additional questions, you can contact me at <a href="mailto:"></a></p>
